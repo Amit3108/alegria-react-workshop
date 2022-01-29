@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    background-color: purple;
+    color: white;
+}
+
+.logo{
+    font-size: 3.5vh;
+}
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75%;
+}
+.home,.page1,.page2{
+    text-decoration: none;
+    color: white;
+    font-size: 2.3vh;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.home:hover,.page1:hover,.page2:hover{
+    background-color: royalblue;
+    transition: all 0.4s ease-out;
+}
+.feedback{
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+
