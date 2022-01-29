@@ -1,0 +1,8 @@
+.to-do-app{
+    margin: 0;
+    width: 100%;
+}
+.to-do-app h1{
+    text-align: center;
+    color: white;
+}

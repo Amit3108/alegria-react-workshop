@@ -1,0 +1,60 @@
+.to-do-list{
+    font-family: "Montserrat";
+}
+
+/* .list-items{
+    display: grid;
+    width: 80%;
+    margin-left: 10%;
+    grid-template-columns: repeat(3,auto);
+    justify-content: center;
+    list-style:none;
+    grid-gap: 3vw;
+    margin-top: 2vh;
+    margin-bottom: 8vh;
+    font-size: 16px;
+}
+.list-item{
+    width:20vw;
+    max-width: 330px;
+    padding: 3px 18px 15px 18px;
+    padding-left: 12px;
+    background-color: white;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5);
+    outline: none;
+    border: none;
+    font-size: 18px;
+    text-align: justify;
+}
+.delete{
+    font-size: 18px;
+    background-color: red;
+    height: 40px;
+    width: auto;
+    padding:10px;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    font-family: "Montserrat";
+} */
+
+.delete:hover{
+    cursor: pointer;
+}
+
+.card{
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* @media screen and (max-width: 780px) {
+    .list-items{
+        grid-template-columns: repeat(2,50%);
+    }
+    .list-item{
+        width: 45vw;
+        height: auto;
+        font-size: 14px;
+    }
+} */
